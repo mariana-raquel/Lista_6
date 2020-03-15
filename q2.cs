@@ -1,13 +1,13 @@
- using System;
+using System;
 
 class MainClass {
   public static void Main (string[] args) {
     Console.Write("Resultado: ");
-    int a = 1;
-    while (a < 10)
+    int a = 10;
+    while (a > 1)
     {
       Console.Write($"{a} ");
-      a++;
+      a--;
     }
     Console.Write(a);
     Console.ReadKey();
